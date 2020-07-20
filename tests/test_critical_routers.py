@@ -1,5 +1,5 @@
 from unittest import TestCase
-from critical_routers import find_critical_nodes
+from problems.critical_routers import find_critical_nodes
 
 
 class TestCriticalRouters(TestCase):
