@@ -2,6 +2,10 @@
 
 
 def num_islands(grid):
+    # If we didn't get a grid, return zero.
+    if not grid:
+        return 0
+
     # How islands are connected.
     connections = ((0, 1), (0, -1), (1, 0), (-1, 0))
     island_count = 0  # The number of islands we have found so far.
