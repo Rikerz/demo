@@ -23,7 +23,7 @@ def most_popular_keywords(reviews, keywords, k):
             if keyword in analyzed_review:
                 keyword_counts[keyword] += 1
 
-    result = keyword_counts.items()
+    result = list(keyword_counts.items())
 
     # Sort by descending count but ascending keyword.
     result.sort(key=lambda x: (-x[1], x[0]))
