@@ -1,5 +1,5 @@
 from unittest import TestCase
-from partition_labels import get_partition_labels
+from problems.partition_labels import get_partition_labels
 
 
 class TestPartitionLabels(TestCase):
