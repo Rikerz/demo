@@ -1,5 +1,5 @@
 from unittest import TestCase
-from top_k_frequent_keywords import most_popular_keywords
+from problems.top_k_frequent_keywords import most_popular_keywords
 
 
 class TestTopKFrequentKeywords(TestCase):
